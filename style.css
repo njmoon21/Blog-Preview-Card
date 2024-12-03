@@ -1,0 +1,102 @@
+.attribution { font-size: 13px; text-align: center; margin-top: 20px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Imported Font */
+@font-face {
+    font-family: figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: figtreeItalic;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+body {
+    background: #f4d04e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: figtree, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.course-link {
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 850;
+    color: #111111;
+    transition: color 0.5s;
+}
+
+.course-link:hover, .course-link:focus, .course-link:active {
+    color: #f4d04e;
+}
+
+.avatar {
+    width: 10%;
+}
+
+.card-container {
+    width: 384px;
+    background: #fff;
+    border-style: solid;
+    border-color: #111111;
+    border-width: 1px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 26px;
+    box-shadow: 10px 10px;
+}
+
+.description {
+    font-size: 18px;
+    color: #6b6b6b;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.illustration {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.learning {
+    display: inline-block;
+    background: #f4d04e;
+    padding: 5px 17px 5px 17px;
+    margin: 25px 0 5px 0;
+    border-radius: 6px;
+
+    color: #111111;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 1000;
+    letter-spacing: 0px;
+}
+
+.published {
+    color: #111111;
+    font-size: 16px;
+    font-weight: 680;
+    letter-spacing: 0px;
+}
+
+.publisher {
+    display: flex;
+    align-items: center;
+}
+
+.publisher-name {
+    padding-left: 14px;
+    font-size: 16px;
+    line-height: 80%;
+    font-weight: 850;
+    color: #111111;
+}
